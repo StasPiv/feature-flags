@@ -1,0 +1,22 @@
+{
+  "name": "staspiv/feature-flags",
+  "description": "Feature flags checker",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "pivovartsev",
+      "email": "staspivovartsev@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3",
+    "guzzlehttp/guzzle": ">=7.0.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "StasPiv\\FeatureFlags\\": "src/"
+    }
+  }
+}
